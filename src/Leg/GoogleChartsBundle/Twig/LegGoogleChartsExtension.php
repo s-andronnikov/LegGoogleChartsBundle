@@ -43,13 +43,11 @@ class LegGoogleChartsExtension extends \Twig_Extension
 	 */
 	public function getFunctions()
 	{
-		return array(
-			'leg_google_charts_get' => new \Twig_Function_Method($this, 'get'),
-			'leg_google_charts_build' => new \Twig_Function_Method($this, 'build',
-										array('is_safe' => array('html'))),
-			'leg_google_charts_render' => new \Twig_Function_Method($this, 'render',
-										array('is_safe' => array('html'))),
-		);
+	    return array(
+    	        new \Twig_SimpleFunction('leg_google_charts_get', array($this, 'get')),
+        	new \Twig_SimpleFunction('leg_google_charts_build', array($this, 'build'), array('is_safe' => array('html'))),
+        	new \Twig_SimpleFunction('leg_google_charts_render', array($this, 'render'), array('is_safe' => array('html')))
+	    );
 	}
 
 	/**
