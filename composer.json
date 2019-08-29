@@ -16,8 +16,8 @@
 		"php": ">=5.3.2",
 		"ext-simplexml": "*",
 		"leg/googlecharts": "1.*@dev",
-		"symfony/framework-bundle": "^2.8|^3.0",
-		"symfony/security-bundle": "^2.8|^3.0"
+		"symfony/framework-bundle": "^2.8|^3.0|^4.0",
+		"symfony/security-bundle": "^2.8|^3.0|^4.0"
 	},
 	"require-dev": {
 		"twig/twig": "~1.5|^2.0|^3.0"
