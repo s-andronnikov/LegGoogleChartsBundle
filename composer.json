@@ -1,6 +1,6 @@
 {
 	"name": "leg/googlecharts-bundle",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"type": "symfony-bundle",
 	"description": "Symfony2 bundle that intregrate LegGCharts, a PHP 5.3 library to generate charts using GoogleChartsImage",
 	"keywords": ["charts", "generation", "bundle", "image", "google"],
